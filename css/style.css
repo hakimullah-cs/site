@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+  background: url('../Images/body.png') repeat #050446;
+}
+
+/* Banner style Start */
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../Images/slide1.jpg);
+    background-repeat:  no-repeat;
+    background-position: center center;
+    background-size: cover;
+    animation: slide 15s infinite;
+}
+@keyframes slide {
+    0% {
+        background-image: url('../Images/slide4.jpg');
+    }
+    33% {
+        background-image: url('../Images/slide6.jpg');
+    }
+    66% {
+        background-image: url('../Images/slide7.jpg');
+    }
+    100% {
+        background-image: url('../Images/slide1.jpg');
+    }
+}
+/* Banner style End */
+
+/* Services Style start */
+
+.sec-title{
+    color: #ffffff;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.service-link{
+    color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.23s ease-in-out;
+}
+
+.service-link:hover{
+    border-bottom: 1px solid #fff;
+}
+/* Services Style end */
+
+
+/* About style start */
+.about-para{
+    color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.5;
+  line-height: 17px;
+}
+.about-btn{
+    border: 1px solid #09B169;
+  cursor: pointer;
+  color: #09B169;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px;
+  border-radius: 3px;
+  transition: allall 0.23s ease-in-out;
+}
+.about-btn:hover{
+    background:#09B169;
+    color: #fff;
+}
+/* About style end*/
+
+
+/* Contact Style start */
+.contact{
+    width: 100%;
+    min-height: 450px;
+    background:url(../Images/sarer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+}
+.contact-title{
+    font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #747474;
+  text-align: center !important;
+}
+/* Contact Style end */
+
+
+
+
+
+
+
+/* Information page start */
+
+.info-btn{
+    width:200px;
+    height: 70px;
+    border: 1px solid #fff;
+    background:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 !important;
+}
+.info-btn.active{
+    background: #fff;
+    color: #000 !important;
+}
+.content{
+    display: none;
+}
+/* Information page end */
