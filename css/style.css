@@ -126,7 +126,51 @@ body{
     background: #fff;
     color: #000 !important;
 }
+
 .content{
     display: none;
 }
 /* Information page end */
+
+/* check status */
+.informBox_5566 {
+    width: 832px;
+    padding: 5px 26px;
+    text-align: left;
+    font-size: 17px;
+    color: #fff;
+    border: 1px dashed #c8c8c8;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    line-height: 19px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #30333a !important;
+    color: #fff !important;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+#vpb_captcha_code {
+    width: 141px;
+    padding-left: 4px;
+    font-size: 18px;
+    height: 48px;
+    margin-left: 15px;
+    vertical-align: top;
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+    color: #c8c8c8;
+    background-color: #30333a;
+}
